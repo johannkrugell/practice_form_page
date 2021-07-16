@@ -10,26 +10,25 @@ header{
   color: #fff;
   width: 100%;
   margin: 0 auto;
+  padding-bottom: 15px;
   position: fixed;
   z-index: 20;
 }
 
 .header_logo{
-  background-color:#040d38; 
   box-sizing: border-box;
   display: block; 
   position: relative;
-  left: 5px;
-  padding-top: 5px;
-  width: 10vh;
+  padding: 15px 0 10px 5px;
+  width: 15vh;
 }
-.header_logo img{
-  height: 9vh;
+.fa-lightbulb{
+  color: yellow;
   width: auto;
 }
 .header_nav{
   float: right;
-  padding: 3.5vh 60px 0 0;
+  padding: 4vh 60px 0 0;
 }
 .header_nav > li{
   display: inline;
@@ -66,10 +65,47 @@ header{
   transform: translate(15%, -30%);
 }
 .submit_button{
+  background-color: #F7CA18;
+  border-radius: 99px;
+  color: #fff ;
+  font-size: 1.5em;
+  height: 15vh;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
   text-transform: uppercase;
-  background-color: #fff;
-  color: #000;
-  height: 10vh;
   width: auto;
-  
+}  
+
+/* ABOUT IDEAS */
+.about{
+  background-color: #000;
+  align-items: center;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  height: 35vh;
+}
+.about_title{
+  flex: 1 1 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 4.5rem;
+}
+.about_content{
+  flex: 0 0 45em;
+
+}
+
+
+/* FOOTER STYLES */
+footer{
+  background-color: #000;
+  border-top: 1px solid #fff;
+  color: #fff;
+  width: 100%;
+  /* margin: 0 auto; */
+  padding-bottom: 15px;
+  position: relative;
+  z-index: 20;
 }
