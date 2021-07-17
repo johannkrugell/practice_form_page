@@ -4,6 +4,21 @@ html {
   padding: 0 30px;
 }
 
+h1, h2 {
+  font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+  color: #fff;
+}
+h1{
+  font-size: 4.5rem;
+}
+h2{
+  font-size: 2.0rem;
+}
+p{
+ font-size: 1.3rem ; 
+ font-family: 'Open Sans', Arial, Helvetica, sans-serif
+}
+
 /* HEADER STYLES */
 header{
   background-color: #000;
@@ -34,7 +49,12 @@ header{
   display: inline;
   margin-left: 1em;
   text-transform: uppercase;
-  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-family: "Titillium Web", Arial, Helvetica, sans-serif;
+}
+.header_nav > li a{
+  text-decoration: none;
+  color: #fff;
 }
 
 
@@ -75,6 +95,7 @@ header{
   text-decoration: none;
   text-transform: uppercase;
   width: auto;
+  font-family: "Titillium Web", Arial, Helvetica, sans-serif;
 }  
 
 /* ABOUT IDEAS */
@@ -90,11 +111,30 @@ header{
   flex: 1 1 0;
   text-align: center;
   text-transform: uppercase;
-  font-size: 4.5rem;
 }
 .about_content{
   flex: 0 0 45em;
+}
+.about_content a{
+  color: #F7CA18;
+  text-decoration: none;
+}
 
+/* FORM STYLES */
+.form_container{
+  height: 45vh;
+  position: relative;
+} 
+.form_message{
+  height: 45vh;
+  color:yellow;
+  padding-top: 100px;
+}
+.form_block{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
 
@@ -109,3 +149,5 @@ footer{
   position: relative;
   z-index: 20;
 }
+
+/* MOBILE STYLES */
