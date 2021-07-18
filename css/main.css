@@ -3,19 +3,21 @@ html {
   box-shadow: 0 0 0 30px #000 inset;
   padding: 0 30px;
 }
-
+body{
+  min-height:100vh;
+}
 h1, h2 {
   font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
   color: #fff;
 }
 h1{
-  font-size: 4.5rem;
+  font-size: 7vw;
 }
 h2{
-  font-size: 2.0rem;
+  font-size: 2vw;
 }
 p{
- font-size: 1.3rem ; 
+ font-size: 1vw ; 
  font-family: 'Open Sans', Arial, Helvetica, sans-serif
 }
 
@@ -24,7 +26,6 @@ header{
   background-color: #000;
   color: #fff;
   width: 100%;
-  margin: 0 auto;
   padding-bottom: 15px;
   position: fixed;
   z-index: 20;
@@ -35,15 +36,14 @@ header{
   display: block; 
   position: relative;
   padding: 15px 0 10px 5px;
-  width: 15vh;
 }
 .fa-lightbulb{
-  color: yellow;
-  width: auto;
+  color: #F7CA18;
+  width: 4.3vh;
 }
 .header_nav{
   float: right;
-  padding: 4vh 60px 0 0;
+  padding: 4vh 80px 0 0;
 }
 .header_nav > li{
   display: inline;
@@ -68,9 +68,8 @@ header{
   bottom:2vh;
   content: "";
   height: 0;
-  left: 50%;
+  width: 0;
   position: absolute;
-  transform: translate(-50%, 0);
 }
 .hero_home{
   background-image: url(/images/idea_hero.jpg); 
@@ -81,13 +80,14 @@ header{
   position: relative;
   text-align: center;
   text-transform: uppercase;
-  top: 30%;
-  transform: translate(15%, -30%);
-}
+  top: 45%;
+  left: -10%;
+ }
 .submit_button{
   background-color: #F7CA18;
   border-radius: 99px;
   color: #fff ;
+  font-family: "Titillium Web", Arial, Helvetica, sans-serif;
   font-size: 1.5em;
   height: 15vh;
   padding: 15px;
@@ -95,7 +95,6 @@ header{
   text-decoration: none;
   text-transform: uppercase;
   width: auto;
-  font-family: "Titillium Web", Arial, Helvetica, sans-serif;
 }  
 
 /* ABOUT IDEAS */
@@ -122,21 +121,44 @@ header{
 
 /* FORM STYLES */
 .form_container{
-  height: 45vh;
-  position: relative;
+  height: 90vh;
 } 
-.form_message{
-  height: 45vh;
-  color:yellow;
-  padding-top: 100px;
+.form_header h2{
+  color:#000;
+  padding: 80px 0 5px 10px;
+  /* position: relative; */
 }
-.form_block{
-  padding: 10px;
+.form_content{
+  padding: 10px 5px 5px 10px;
   display: flex;
   flex-direction: column;
-  position: relative;
+  /* position: relative; */
+}
+input[type=text] {
+  width: 25%;
+  padding: 5px 0 0 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[name=idea] {
+  width: 25%;
+  padding: 5px 0 0 10px;
+  margin: 8px 0;
+  height: 20vh;
+  box-sizing: border-box;
 }
 
+input[type=email] {
+  width: 25%;
+  padding: 5px 0 0 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+button[type=submit] {
+  width: 25%;
+  padding: 5px 0 0 10px;
+  margin: 8px 0;
+}
 
 /* FOOTER STYLES */
 footer{
@@ -144,10 +166,25 @@ footer{
   border-top: 1px solid #fff;
   color: #fff;
   width: 100%;
-  /* margin: 0 auto; */
   padding-bottom: 15px;
   position: relative;
   z-index: 20;
 }
 
 /* MOBILE STYLES */
+@media (max-width: 800px) {
+html{
+  box-shadow: none;
+  padding: 0;
+}
+.full_hero{
+  /* background-size: cover; */
+  box-sizing: border-box;
+  height: 90vh;
+}
+.header_nav{
+  overflow: hidden
+}
+};
+
+  
