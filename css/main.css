@@ -89,12 +89,10 @@ header{
   color: #fff ;
   font-family: "Titillium Web", Arial, Helvetica, sans-serif;
   font-size: 1.5em;
-  height: 15vh;
   padding: 15px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
-  width: auto;
 }  
 
 /* ABOUT IDEAS */
@@ -172,19 +170,61 @@ footer{
 }
 
 /* MOBILE STYLES */
-@media (max-width: 800px) {
-html{
-  box-shadow: none;
-  padding: 0;
-}
-.full_hero{
-  /* background-size: cover; */
-  box-sizing: border-box;
-  height: 90vh;
-}
-.header_nav{
-  overflow: hidden
-}
+    @media (max-width: 800px) {
+/* GLOBAL STYLES   */
+    html{
+      box-shadow: none;
+      padding: 0;
+    }
+    h1{
+      font-size: 5vw;
+    }
+    h2{
+      font-size: 4vw;
+    }
+    p{
+     font-size: 2.5vw ; 
+     font-family: 'Open Sans', Arial, Helvetica, sans-serif
+    }
+/* HERO STYLES */
+    .hero_home{
+      height: 35vh;
+    } 
+   .full_hero{
+      background-size: 100vw auto;
+      background-repeat: no-repeat;
+    }
+    .hero_content{
+      top: 85%;
+      left: -25%;
+    }
+    .submit_button{
+      font-size: 0.8em;
+      padding: 3.5px;
+    }
+/*HEADER STYLES */
+    .header_nav{
+      overflow: hidden;
+      padding: 4vh 20px 0 0;
+    }
+    .header_nav > li{
+      font-size: 3vw;
+    }
+/* ABOUT STYLES */
+    .about_content{
+      flex: 1;
+    }
+/* FORMS       */
+    input[type=text] {
+      width: auto;
+    }
+    input[type=email] {
+      width: auto;
+    }
+    button[type=submit] {
+      width: auto;
+    }
+
 };
 
   
