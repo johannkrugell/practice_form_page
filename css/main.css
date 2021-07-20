@@ -57,6 +57,13 @@ header{
   color: #fff;
 }
 /* FOOTER STYLES */
+footer{
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  padding-bottom: 15px;
+  z-index: 20;
+}
 .footer_logo{
   box-sizing: border-box;
   display: block; 
