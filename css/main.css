@@ -57,13 +57,17 @@ header{
   color: #fff;
 }
 /* FOOTER STYLES */
+
 footer{
-  background-color: #000;
+  background-color: yellow;
+  border-top: 1px solid #fff;
   color: #fff;
   width: 100%;
   padding-bottom: 15px;
+  position: relative;
   z-index: 20;
 }
+
 .footer_logo{
   box-sizing: border-box;
   display: block; 
@@ -185,16 +189,7 @@ button[type=submit] {
   margin: 8px 0;
 }
 
-/* FOOTER STYLES */
-footer{
-  background-color: #000;
-  border-top: 1px solid #fff;
-  color: #fff;
-  width: 100%;
-  padding-bottom: 15px;
-  position: relative;
-  z-index: 20;
-}
+
 
 /* MOBILE STYLES */
     @media (max-width: 800px) {
