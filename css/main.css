@@ -56,8 +56,28 @@ header{
   text-decoration: none;
   color: #fff;
 }
-
-
+/* FOOTER STYLES */
+.footer_logo{
+  box-sizing: border-box;
+  display: block; 
+  position: relative;
+  padding: 15px 0 10px 5px;
+}
+.footer_nav{
+  float: right;
+  padding: 4vh 80px 0 0;
+}
+.footer_nav > li{
+  display: inline;
+  margin-left: 1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: "Titillium Web", Arial, Helvetica, sans-serif;
+}
+.footer_nav > li a{
+  text-decoration: none;
+  color: #fff;
+}
 /* HERO STYLES */
 .full_hero{
   background-size: cover;
@@ -208,6 +228,14 @@ footer{
       padding: 4vh 20px 0 0;
     }
     .header_nav > li{
+      font-size: 3vw;
+    }
+/* FOOTER STYLES     */
+    .footer_nav{
+      overflow: hidden;
+      padding: 4vh 20px 0 0;
+    }
+    .footer_nav > li{
       font-size: 3vw;
     }
 /* ABOUT STYLES */
