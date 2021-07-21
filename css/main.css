@@ -39,7 +39,6 @@ header{
 }
 .fa-lightbulb{
   color: #F7CA18;
-  width: 4.3vh;
 }
 .header_nav{
   float: right;
@@ -103,7 +102,7 @@ footer{
   position: absolute;
 }
 .hero_home{
-  background-image: url(/practice_form_page/images/idea_hero.jpg); 
+  background-image: url(/images/idea_hero.jpg); 
   background-position: center top;
 }
 .hero_content{
