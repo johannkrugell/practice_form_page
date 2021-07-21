@@ -59,7 +59,7 @@ header{
 /* FOOTER STYLES */
 
 footer{
-  background-color: pink  ;
+  background-color: green  ;
   border-top: 1px solid #fff;
   color: #fff;
   width: 100%;
@@ -197,6 +197,10 @@ button[type=submit] {
     html{
       box-shadow: none;
       padding: 0;
+    }
+    body{
+      height: 100vh;
+      width: 100vw;
     }
     h1{
       font-size: 5vw;
