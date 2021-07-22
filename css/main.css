@@ -58,7 +58,7 @@ header{
 /* FOOTER STYLES */
 
 footer{
-  background-color: green  ;
+  background-color: purple  ;
   border-top: 1px solid #fff;
   color: #fff;
   width: 100%;
@@ -102,7 +102,7 @@ footer{
   position: absolute;
 }
 .hero_home{
-  background-image: url(/images/idea_hero.jpg); 
+  background-image: url(/practice_form/images/idea_hero.jpg); 
   background-position: center top;
 }
 .hero_content{
@@ -154,7 +154,7 @@ footer{
 .form_header h2{
   color:#000;
   padding: 80px 0 5px 10px;
-  /* position: relative; */
+  position: relative;
 }
 .form_content{
   padding: 10px 5px 5px 10px;
