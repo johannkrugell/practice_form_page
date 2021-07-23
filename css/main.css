@@ -3,9 +3,6 @@ html {
   box-shadow: 0 0 0 30px #000 inset;
   padding: 0 30px;
 }
-body{
-  height: 100%;
-}
 h1, h2 {
   font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
   color: #fff;
@@ -59,7 +56,7 @@ header{
 /* FOOTER STYLES */
 
 footer{
-  background-color: lightseagreen;
+  background-color: limegreen;
   border-top: 1px solid #fff;
   color: #fff;
   width: 100%;
@@ -75,6 +72,12 @@ footer{
   margin-right: auto;
   width: 50%;
   padding: 15px 0 2px 0px;
+}
+.footer_logo i{
+  display: block; 
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 .footer_nav{
   display: inline-block;
