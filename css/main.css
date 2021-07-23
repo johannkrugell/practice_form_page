@@ -69,13 +69,12 @@ footer{
 }
 
 .footer_logo{
-  /* box-sizing: border-box; */
   display: block; 
-  /* position: relative; */
+  position: relative;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  /* padding: 15px 0 0px 5px; */
+  padding: 15px 0 2px 0px;
 }
 .footer_nav{
   display: inline-block;
