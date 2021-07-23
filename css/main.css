@@ -4,7 +4,7 @@ html {
   padding: 0 30px;
 }
 body{
-  min-height:100vh;
+  height: 100%;
 }
 h1, h2 {
   font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
