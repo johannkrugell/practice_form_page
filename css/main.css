@@ -56,7 +56,7 @@ header{
 /* FOOTER STYLES */
 
 footer{
-  background-color: limegreen;
+  background-color: yellow;
   border-top: 1px solid #fff;
   color: #fff;
   width: 100%;
@@ -78,6 +78,7 @@ footer{
   position: relative;
   margin-left: auto;
   margin-right: auto;
+  color: black;
 }
 .footer_nav{
   display: inline-block;
