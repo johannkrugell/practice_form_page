@@ -59,7 +59,7 @@ header{
 /* FOOTER STYLES */
 
 footer{
-  background-color: skyblue;
+  background-color: lightcoral;
   border-top: 1px solid #fff;
   color: #fff;
   width: 100%;
@@ -71,9 +71,10 @@ footer{
 .footer_logo{
   /* box-sizing: border-box; */
   display: block; 
-  position: relative;
+  /* position: relative; */
   margin-left: auto;
   margin-right: auto;
+  width: 50%;
   /* padding: 15px 0 0px 5px; */
 }
 .footer_nav{
