@@ -56,7 +56,7 @@ header{
 /* FOOTER STYLES */
 
 footer{
-  background-color: purple;
+  background-color: orangered;
   border-top: 1px solid #fff;
   color: #fff;
   text-align: center;
@@ -71,15 +71,15 @@ footer{
   padding: 15px 0 2px 0px;
 }
 .footer_logo i{
-  display: block; 
+  /* display: block; 
   position: relative;
   margin-left: auto;
-  margin-right: auto;
-  color: black;
+  margin-right: auto; */
+  color: white;
 }
 .footer_nav{
   display: inline-block;
-  padding: 4vh 80px 0 0;
+  padding: 5px 0 5px 0;
 }
 .footer_nav > li{
   display: inline-block;
