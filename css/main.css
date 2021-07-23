@@ -59,12 +59,12 @@ header{
 /* FOOTER STYLES */
 
 footer{
-  background-color: pink ;
+  background-color: green ;
   border-top: 1px solid #fff;
   color: #fff;
   width: 100%;
   padding-bottom: 15px;
-  position: relative;
+  /* position: relative; */
   z-index: 20;
 }
 
