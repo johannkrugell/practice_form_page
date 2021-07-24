@@ -29,16 +29,18 @@ header{
 }
 
 .header_logo{
-  box-sizing: border-box;
   display: inline; 
   position: relative;
-  left: 20px;
   text-align: left;
+  padding: 15px 0 2px 0px;
+}
 }
 .fa-lightbulb{
   color: #F7CA18;
+
 }
 .header_nav{
+  display: inline;
   float: right;
   padding: 4vh 80px 0 0;
 }
@@ -248,7 +250,7 @@ button[type=submit] {
     }
 /* ABOUT STYLES */
     .about_content{
-      flex: 0;
+      flex: 1;
     }
 /* FORMS       */
     input[type=text] {
