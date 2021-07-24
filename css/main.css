@@ -27,8 +27,8 @@ header{
   position: fixed;
   z-index: 20;
 }
-header_nav{
-  display: inline-table;
+header nav{
+  display: inline;
 }
 .header_logo{
   display: inline; 
