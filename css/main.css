@@ -56,7 +56,7 @@ header{
 /* FOOTER STYLES */
 
 footer{
-  background-color: olivedrab;
+  background-color: chocolate;
   border-top: 1px solid #fff;
   color: #fff;
   text-align: center;
@@ -242,14 +242,13 @@ button[type=submit] {
 /* FOOTER STYLES     */
     .footer_nav{
       overflow: hidden;
-      padding: 4vh 20px 0 0;
     }
     .footer_nav > li{
       font-size: 3vw;
     }
 /* ABOUT STYLES */
     .about_content{
-      flex: 1;
+      flex: 0;
     }
 /* FORMS       */
     input[type=text] {
